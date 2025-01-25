@@ -355,6 +355,8 @@ Change and knit again and again until you're happy with the figure sizes.
 Note that these values get saved in the YAML.
 
 ```{r fig-resize-local, fig.height=3, fig.margin=TRUE, fig.width=6}
+
+```{r fig-resize-local, fig.height=3, fig.margin=TRUE, fig.width=6, message=TRUE, warning=TRUE, paged.print=TRUE}
 knitr::include_graphics("img/fig-resize-local.png")
 ```
 
@@ -364,6 +366,7 @@ Changing the figure sizes added new options to these chunks: `fig.width` and `fi
 You can change them by defining different values directly in your R Markdown document as well.
 
 ```{r theme-highlight, fig.margin = TRUE, echo = FALSE, fig.width=3}
+```{r theme-highlight, echo=FALSE, fig.height=3, fig.margin=TRUE, fig.width=6}
 knitr::include_graphics("img/theme-highlight.png")
 ```
 
