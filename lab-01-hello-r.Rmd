@@ -354,7 +354,7 @@ Then, knit your document and see how you like the new sizes.
 Change and knit again and again until you're happy with the figure sizes.
 Note that these values get saved in the YAML.
 
-```{r fig-resize-local, fig.margin = TRUE, echo = FALSE, fig.width=3}
+```{r fig-resize-local, fig.height=3, fig.margin=TRUE, fig.width=6}
 knitr::include_graphics("img/fig-resize-local.png")
 ```
 
